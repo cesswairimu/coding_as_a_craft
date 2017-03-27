@@ -4,7 +4,8 @@ class Account
     @account = Account.new
     set_expire_date
   end
-  def initialize
+  def initialize(attr={ })
+    set_owner(attr[:owner])
     # @pin = pin
      @account_status = :active
     # @balance = balance
@@ -14,6 +15,13 @@ class Account
 
   def self.deactivate(account)
     account.account_status = :deactivated
+  end
+  private
+  def set_owner(obj)
+  obj == nil ? missing_owner : @owner = obj
+  end
+  def missing_owner
+    raise 'An account owner required'
   end
 
 end
