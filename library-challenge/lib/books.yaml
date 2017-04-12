@@ -1,0 +1,31 @@
+item:
+  title: Sunbird
+  author: Nicholas
+  available: true
+  due_date:
+
+item:
+  title: Ruby on Rails
+  author: Michael Hartl
+  available: true
+  due_date:
+
+item:
+  title: Head First Ruby
+  author: O'reily
+  available: true
+  due_date:
+
+item:
+  title: Rich Dad Poor Dad
+  author: Robert
+  available: true
+  due_date:
+
+item:
+  title: The life
+  author: Lisa Ann
+  available: true
+  due_date:
+
+
